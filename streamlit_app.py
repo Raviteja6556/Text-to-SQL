@@ -100,7 +100,7 @@ def get_llm():
     """Initializes the Google Generative AI LLM."""
     # Use st.secrets for Streamlit Cloud deployment or os.getenv for local testing
     # api_key = os.getenv('GOOGLE_API_KEY') # For local testing - Removed
-    api_key = st.secrets['GOOGLE_API_KEY'] # For Streamlit Cloud
+    api_key = "AIzaSyDOGNoA-G1ceO6rW0S_ujw6Y0opowIQGf8"
 
     if not api_key:
         st.error("Google API Key not found. Please set GOOGLE_API_KEY in .streamlit/secrets.toml or Streamlit secrets.")
