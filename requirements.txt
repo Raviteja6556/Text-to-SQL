@@ -1,0 +1,9 @@
+streamlit
+requests
+pandas
+duckdb
+chromadb
+sentence-transformers
+langchain-google-genai
+kagglehub
+python-dotenv
